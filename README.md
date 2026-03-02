@@ -19,6 +19,6 @@
 ## Day2: Nothing Today <br/>
 
 ## Day3 RandomNumberGuesser <br/>
-Date Completed: March 2, 2026
-Purpose: Guess a number between 1 and 10
-Key Concepts Learned: How to make random number, loops and functions
+Date Completed: March 2, 2026 <br/>
+Purpose: Guess a number between 1 and 10 <br/>
+Key Concepts Learned: How to make random number, loops and functions <br/>
