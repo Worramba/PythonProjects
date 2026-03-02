@@ -1,0 +1,25 @@
+import random # Gets code random
+
+def randomNumber() # Makes function
+  number = random.randint(1, 10) # Makes a variable called number and makes it give a random number between 1, 10
+  attempts = 0 # Makes a variable with a value of 5
+  print("Welcome to the NUMBER GUESSER")
+  print("Choose a NUMBER between 1 and 10 guess it")
+  while true: # Makes infinite
+    guess = input("Enter Guess: ") # Gives player
+
+    if not guess.isdigit: # Checks if its a letter
+    print("Its not a digit please enter valid number")
+    continue # continues
+  
+    guess = int(guess) # Turns guess into a number
+    attempts += 1 # Adds 1 to attempts
+
+    if guess < number: # Check if its lower than number
+    print("To low")
+    elif guess > number: # Checks if its higher than number
+    print("To high")
+    else guess = number: # Checks if its correct
+    print("CORRECT it took you {attempts} tries")
+    break # Ends it
+randomNumber() # Starts it
