@@ -18,3 +18,5 @@
 Date Completed: March 2, 2026 <br/>
 Purpose: Guess a number between 1 and 10 <br/>
 Key Concepts Learned: How to make random number, loops and functions <br/>
+
+## Day4: Nothing Today <br/>
