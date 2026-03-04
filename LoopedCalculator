@@ -1,0 +1,24 @@
+while True:
+    num1 = float(input("Enter first number: ")) # Lets you choose number1
+    num2 = float(input("Enter second number: ")) # Lets you choose number 2
+    
+    op = input("Choose operation (+, -, *, /): ") # Chooses a symbol
+    
+    # Perform calculations
+    if op == "+":
+        result = num1 + num2
+    elif op == "-":
+        result = num1 - num2
+    elif op == "*":
+        result = num1 * num2
+    elif op == "/":
+        result = num1 / num2
+    else:
+        print("Invalid operation")
+        continue
+    
+    print("Result:", result)
+    
+    again = input("Do you want to calculate again? (yes/no): ") # Ask if the user wants to calculate again
+    if again.lower() != "yes": # If no then break
+        break
