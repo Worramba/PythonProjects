@@ -26,3 +26,4 @@ Date Completed: March 4, 2026 <br/>
 Purpose: adds 2 number together <br/>
 Key Concepts Learned: Operations, float <br/>
 
+## Day5: Nothing Today <br/>
