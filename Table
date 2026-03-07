@@ -1,0 +1,12 @@
+scores = [] # Table
+
+while True: # Infinite loop
+    score = int(input("Enter a score: ")) # Ask question
+    scores.append(score) # Adds answer
+
+    again = input("Add another score? (yes/no): ") # Asks again
+
+    if again == "no": # If no breaks
+        break
+
+print("All scores:", scores) # Prints score
