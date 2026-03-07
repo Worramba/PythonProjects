@@ -26,9 +26,10 @@ Date Completed: March 4, 2026 <br/>
 Purpose: adds 2 number together <br/>
 Key Concepts Learned: Operations, float <br/>
 
-## Day5: Nothing Today <br/>
+## Day6: Nothing Today <br/>
 
-## Day5 Table <br/>
+## Day7 Table <br/>
 Date Completed: March 6, 2026 <br/>
 Purpose: Adds score from player <br/>
 Key Concepts Learned: Append and Table <br/>
+Snippet(Extra): "scores.append(score)" <br/>
