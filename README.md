@@ -27,3 +27,8 @@ Purpose: adds 2 number together <br/>
 Key Concepts Learned: Operations, float <br/>
 
 ## Day5: Nothing Today <br/>
+
+## Day5 Table <br/>
+Date Completed: March 6, 2026 <br/>
+Purpose: Adds score from player <br/>
+Key Concepts Learned:  <br/>
