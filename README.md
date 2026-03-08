@@ -33,3 +33,5 @@ Date Completed: March 6, 2026 <br/>
 Purpose: Adds score from player <br/>
 Key Concepts Learned: Append and Table <br/>
 Snippet(Extra): "scores.append(score)" <br/>
+
+## Day8: Nothing Today <br/>
