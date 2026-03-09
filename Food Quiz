@@ -1,0 +1,26 @@
+print("Food Quiz")
+
+score = 0
+
+answer = input("1. What fruit is red? ")
+if answer == "apple":
+    print("Correct!")
+    score = score + 1
+else:
+    print("Wrong!")
+
+answer = input("2. What fruit is yellow? ")
+if answer == "banana":
+    print("Correct!")
+    score = score + 1
+else:
+    print("Wrong!")
+
+answer = input("3. What food is made from milk and on pizza? ")
+if answer == "cheese":
+    print("Correct!")
+    score = score + 1
+else:
+    print("Wrong!")
+
+print("Your score is", score)
