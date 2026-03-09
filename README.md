@@ -35,3 +35,9 @@ Key Concepts Learned: Append and Table <br/>
 Snippet(Extra): "scores.append(score)" <br/>
 
 ## Day8: Nothing Today <br/>
+
+## Day8 Table <br/>
+Date Completed: March 8, 2026 <br/>
+Purpose: GIves player 2 options from quiz <br/>
+Key Concepts Learned: if else <br/>
+Snippet(Extra): "scores.append(score)" <br/>
