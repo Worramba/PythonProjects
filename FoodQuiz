@@ -2,6 +2,14 @@ print("Food Quiz")
 
 score = 0
 
+def quiz_Maker(Question, Answer)
+answer = input(Quetion .. ":")
+input(Question)
+if answer == Answer:
+print("Correct")
+score = score + 1
+break
+
 answer = input("1. What fruit is red? ")
 if answer == "apple":
     print("Correct!")
