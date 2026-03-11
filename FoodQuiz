@@ -2,33 +2,18 @@ print("Food Quiz")
 
 score = 0
 
-def quiz_Maker(Question, Answer)
-answer = input(Quetion .. ":")
-input(Question)
-if answer == Answer:
-print("Correct")
-score = score + 1
-break
+def quiz_maker(question, correct_answer):
+    global score
+    answer = input(question + ": ")
 
-answer = input("1. What fruit is red? ")
-if answer == "apple":
-    print("Correct!")
-    score = score + 1
-else:
-    print("Wrong!")
+    if answer.lower() == correct_answer:
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong!")
 
-answer = input("2. What fruit is yellow? ")
-if answer == "banana":
-    print("Correct!")
-    score = score + 1
-else:
-    print("Wrong!")
-
-answer = input("3. What food is made from milk and on pizza? ")
-if answer == "cheese":
-    print("Correct!")
-    score = score + 1
-else:
-    print("Wrong!")
+quiz_maker("1. What fruit is red", "apple")
+quiz_maker("2. What fruit is yellow", "banana")
+quiz_maker("3. What food is made from milk and on pizza", "cheese")
 
 print("Your score is", score)
