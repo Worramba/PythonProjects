@@ -1,0 +1,7 @@
+player = {
+    "name": "Alex",
+    "score": 10,
+    "level": 3
+}
+
+print(player["score"])
