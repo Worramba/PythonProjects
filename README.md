@@ -14,7 +14,7 @@
 
 ## Day2 Nothing Today <br/>
 
-## Day3 RandomNumberGuesser <br/>
+## Day3 RandomNumberGuesser and reflection <br/>
 Date Completed: March 2, 2026 <br/>
 Purpose: Guess a number between 1 and 10 <br/>
 Key Concepts Learned: How to make random number, loops and functions <br/>
@@ -38,10 +38,20 @@ Snippet(Extra): "scores.append(score)" <br/>
 
 ## Day9 Table(Updated) <br/>
 Date Completed: March 8, 2026 <br/>
-Purpose: GIves player 2 options from quiz <br/>
+Purpose: Gives player 2 options from quiz <br/>
 Key Concepts Learned: if else <br/>
 Snippet(Extra): "if answer == "apple":" <br/>
 
 ## Day10 Nothing Today <br/>
 
 ## Day11 Nothing Today <br/>
+
+## Day12 Table(Updated) <br/>
+Date Completed: March 11, 2026 <br/>
+Purpose: Stores data for player <br/>
+Key Concepts Learned: {}, and variabes <br/>
+Snippet(Extra): "player = {}" <br/>
+
+## Day13 Nothing Today <br/>
+
+## Day14 Reflection <br/>
