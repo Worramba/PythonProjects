@@ -49,9 +49,17 @@ Snippet(Extra): "if answer == "apple":" <br/>
 ## Day12 Table(Updated) <br/>
 Date Completed: March 11, 2026 <br/>
 Purpose: Stores data for player <br/>
-Key Concepts Learned: {}, and variabes <br/>
+Key Concepts Learned: {}, and variables <br/>
 Snippet(Extra): "player = {}" <br/>
 
 ## Day13 Nothing Today <br/>
 
 ## Day14 Reflection <br/>
+
+## Day15 Nothing Today <br/>
+
+
+## Day16 Shop <br/>
+Date Completed: March 15, 2026 <br/>
+Purpose: Gives players options of items to buy and player can buy <br/>
+Key Concepts Learned: nothing just put toghether all I know <br/>
