@@ -1,0 +1,22 @@
+coins = 10
+
+print("Hello welcome to my water shop")
+print("1, Soda (3 coins)")
+print("2, Water (1 coins)")
+
+change = input("Which one you want?")
+
+if change == "1":
+  if coins >= 3:
+    coins -= 3
+    print("You bought soda")
+  else:
+    print("Purchase failed(Broke ahh)")
+
+elif choice == "2"
+   if coins >= 1:
+    coins -= 1
+    print("You bought water")
+  else:
+    print("Purchase failed(Broke ahh)")
+
