@@ -63,3 +63,14 @@ Snippet(Extra): "player = {}" <br/>
 Date Completed: March 15, 2026 <br/>
 Purpose: Gives players options of items to buy and player can buy <br/>
 Key Concepts Learned: nothing just put toghether all I know <br/>
+
+## Day17 Nothing Today <br/>
+
+## Day18 Nothing Today <br/>
+
+## Day19 MY BIRTHDAY YIPEEEEEEE <br/>
+
+## Day20 Shop <br/>
+Date Completed: March 19, 2026 <br/>
+Purpose: Gives players options of items to buy and player can buy <br/>
+Key Concepts Learned: nothing just put toghether all I know <br/>
