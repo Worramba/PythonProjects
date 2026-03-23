@@ -58,7 +58,6 @@ Snippet(Extra): "player = {}" <br/>
 
 ## Day15 Nothing Today <br/>
 
-
 ## Day16 Shop <br/>
 Date Completed: March 15, 2026 <br/>
 Purpose: Gives players options of items to buy and player can buy <br/>
@@ -70,7 +69,9 @@ Key Concepts Learned: nothing just put toghether all I know <br/>
 
 ## Day19 MY BIRTHDAY YIPEEEEEEE <br/>
 
-## Day20 Shop <br/>
-Date Completed: March 19, 2026 <br/>
-Purpose: Gives players options of items to buy and player can buy <br/>
-Key Concepts Learned: nothing just put toghether all I know <br/>
+## Day20 Nothing Today <br/>
+
+## Day21 Shop(Updated) <br/>
+Date Completed: March 20, 2026 <br/>
+Purpose: Better version of the shop with better function <br/>
+Key Concepts Learned: global and append <br/>
