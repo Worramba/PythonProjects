@@ -1,22 +1,32 @@
+inventory = []
 coins = 10
 
+shop = [
+  "Soda": 3,
+  "Water": 1,
+  "Fry": 5
+]
+
 print("Hello welcome to my water shop")
-print("1, Soda (3 coins)")
-print("2, Water (1 coins)")
 
-change = input("Which one you want?")
+def buy(item)
+  global coins
 
-if change == "1":
-  if coins >= 3:
-    coins -= 3
-    print("You bought soda")
-  else:
-    print("Purchase failed(Broke ahh)")
+  if item in shop:
+    price = shop[item]
 
-elif choice == "2"
-   if coins >= 1:
-    coins -= 1
-    print("You bought water")
-  else:
-    print("Purchase failed(Broke ahh)")
+    if item >= price:
+      coins -= price
+      inventory.append(item)
+      print("You bought", item)
+      print("You have", coins,"left")
+    else
+      print("Nope you cant buy it")
+  else
+    print("This isn't an item")
 
+def showInvetory():
+  print("Inventory", inventory)
+
+showInventory()
+buy("Fry")
