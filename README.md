@@ -77,3 +77,8 @@ Purpose: Better version of the shop with better function <br/>
 Key Concepts Learned: global and append <br/>
 
 ## Day22 Reflection <br/>
+
+## Day23 RNG dungeon <br/>
+Date Completed: March 22, 2026 <br/>
+Purpose: Step 1 of RNG text game <br/>
+Key Concepts Learned: choice <br/>
