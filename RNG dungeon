@@ -1,0 +1,6 @@
+import random
+
+events = ["You go left", "You go foward", "You go right"]
+
+random_event = event.choice(event)
+print(random_event)
