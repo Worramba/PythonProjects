@@ -1,6 +1,18 @@
 import random
 
+player = []
+
 events = ["You go left", "You go foward", "You go right"]
 
 random_event = event.choice(event)
 print(random_event)
+
+if random_event = "You go left":
+  print("You continue and find a tresure chest on the side what do you do?")
+  picked = input("a, Open chest or b, Leave it and continue")
+  if picked == a:
+    chance = random.randint(1, 2)
+      if chance = 1:
+        print("There was 20 coins")
+      else
+        print()
