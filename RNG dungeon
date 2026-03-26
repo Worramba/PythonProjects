@@ -1,33 +1,39 @@
 import random
-while true:
-player = {
-  "coins": 0,
-  "health": 100,
-  "inventory": []
-}
 
-events = ["You go left", "You go forward", "You go right"]
+while True:
+    player = {
+        "coins": 0,
+        "health": 100,
+        "inventory": []
+    }
 
-random_event = event.choice(event)
-print(random_event)
+    events = ["You go left", "You go forward", "You go right"]
 
-if random_event = "You go left":
-  print("You continue and find a tresure chest on the side what do you do?")
-  picked = input("a, Open chest or b, Leave it and continue")
-  if picked == a:
-    chance = random.randint(1, 2)
-      if chance = 1:
-        print("There was 20 coins")
-        player["coins"] += 20
-      else:
-        print("IT WAS A TRAP bats fly out of it and damage you!! -15 health")
-        player["health"] -= 15
+    random_event = random.choice(events)
+    print(random_event)
 
-if random_event = "You go forward":
-  print("It is a dead end you go back to the choice")
-  break
+    if random_event == "You go left":
+        print("You continue and find a treasure chest on the side. What do you do?")
+        picked = input("a) Open chest or b) Leave it and continue: ")
 
-if random_event = "You go right""
-print(It was a trap you fall and die restart game)
-break
-  
+        if picked == "a":
+            chance = random.randint(1, 2)
+            if chance == 1:
+                print("There were 20 coins!")
+                player["coins"] += 20
+            else:
+                print("IT WAS A TRAP! Bats fly out and damage you!! -15 health")
+                player["health"] -= 15
+
+        elif picked == "b":
+            print("You leave it and continue safely.")
+
+    elif random_event == "You go forward":
+        print("It is a dead end. You go back to the choice.")
+        continue
+
+    elif random_event == "You go right":
+        print("It was a trap! You fall and die. Restart game.")
+        break
+
+    print("Player stats:", player)
