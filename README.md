@@ -83,8 +83,10 @@ Date Completed: March 22, 2026 <br/>
 Purpose: Step 1 of RNG text game <br/>
 Key Concepts Learned: choice <br/>
 
-## Day24 RNG dungeon(Update) <br/>
-Date Completed: March 23, 2026 <br/>
+## Day24 Nothing Today <br/>
+
+## Day25 RNG dungeon(Update) <br/>
+Date Completed: March 24, 2026 <br/>
 Purpose: Step 2 of RNG text game <br/>
 Key Concepts Learned: randit, continue and player stats <br/>
 
