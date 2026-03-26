@@ -1,8 +1,12 @@
 import random
+while true:
+player = {
+  "coins": 0,
+  "health": 100,
+  "inventory": []
+}
 
-player = []
-
-events = ["You go left", "You go foward", "You go right"]
+events = ["You go left", "You go forward", "You go right"]
 
 random_event = event.choice(event)
 print(random_event)
@@ -14,5 +18,16 @@ if random_event = "You go left":
     chance = random.randint(1, 2)
       if chance = 1:
         print("There was 20 coins")
-      else
-        print()
+        player["coins"] += 20
+      else:
+        print("IT WAS A TRAP bats fly out of it and damage you!! -15 health")
+        player["health"] -= 15
+
+if random_event = "You go forward":
+  print("It is a dead end you go back to the choice")
+  break
+
+if random_event = "You go right""
+print(It was a trap you fall and die restart game)
+break
+  
