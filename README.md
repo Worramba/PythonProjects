@@ -90,3 +90,4 @@
 **Purpose:** Step 2 of RNG text game <br/>
 **Key Concepts Learned:** Learned to use randint, continue statements, and track player stats for an updated RNG dungeon game. <br/>
 
+## Day26 Nothing Today <br/>
