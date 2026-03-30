@@ -18,13 +18,13 @@ while True:
 
   action = input("Attack or Health").lower()
 
-  if action == attack:
-    damage = random.randit(10, playerStats["Damage"])
+  if action == "attack":
+    damage = random.randint(10, playerStats["Damage"])
     enemyStats["Health"] -= damage
     print("You dealt", damage, "damage")
     
-  elif action == health:
-    health = random.randit(5, 15)
+  elif action == "health":
+    health = random.randint(5, 15)
     playerStats["Health"] += health
     print("You gained", health, "health")
 
@@ -32,15 +32,15 @@ while True:
     print("You win")
     break
 
-  enemyAction = random.randit(1, 2)
+  enemyAction = random.randint(1, 2)
 
   if enemyAction == 1:
-    enemyDamage = random.randit(5, enemyStats["Damage"])
+    enemyDamage = random.randint(5, enemyStats["Damage"])
     playerStats["Health"] -= damage
     print("You lost ", damage, "health")
 
   elif enemyAction == 2:
-    enemyHealth = random.randit(1, 5)
+    enemyHealth = random.randint(1, 5)
     enemyStats["Health"] += health
     print("The enemy healed by", health, "health")
 
