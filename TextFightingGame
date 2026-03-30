@@ -1,0 +1,49 @@
+import random
+
+playerStats = {
+"Health": 100,
+"Damage": 15
+}
+enemyStats = {
+"Health": 50,
+"Damage": 10
+}
+
+def showStats():
+  print("/nPlayerHealth:", playerStats["Health"])
+  print("EnemyHealth:", enemyStats["Health"])
+
+while True:
+  showStats()
+
+  action = input("Attack or Health").lower()
+
+  if action == attack:
+    damage = random.randit(10, playerStats["Damage"])
+    enemyStats["Health"] -= damage
+    print("You dealt", damage, "damage")
+    
+  elif action == health:
+    health = random.randit(5, 15)
+    playerStats["Health"] += health
+    print("You gained", health, "health")
+
+  if enemyStats["health"] <= 0:
+    print("You win")
+    break
+
+  enemyAction = random.randit(1, 2)
+
+  if enemyAction == 1:
+    enemyDamage = random.randit(5, enemyStats["Damage"])
+    playerStats["Health"] -= damage
+    print("You lost ", damage, "health")
+
+  elif enemyAction == 2:
+    enemyHealth = random.randit(1, 5)
+    enemyStats["Health"] += health
+    print("The enemy healed by", health, "health")
+
+  if playerStats["Health"] <= 0:
+    print("You lost")
+    break
