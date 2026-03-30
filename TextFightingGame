@@ -28,7 +28,7 @@ while True:
     playerStats["Health"] += health
     print("You gained", health, "health")
 
-  if enemyStats["health"] <= 0:
+  if enemyStats["Health"] <= 0:
     print("You win")
     break
 
