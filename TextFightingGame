@@ -10,7 +10,7 @@ enemyStats = {
 }
 
 def showStats():
-  print("/nPlayerHealth:", playerStats["Health"])
+  print("\nPlayerHealth:", playerStats["Health"])
   print("EnemyHealth:", enemyStats["Health"])
 
 while True:
