@@ -92,4 +92,7 @@
 
 ## Day26 Nothing Today <br/>
 
-## Day27 Nothing Today <br/>
+## Day27 TextFighting <br/>
+**Date Completed:** March 26, 2026 <br/>
+**Purpose:** You fight an enemy with a choice of a) attack b) heal and the enemy also have an option <br/>
+**Key Concepts Learned:** Created a choice system for player actions (attack or heal). <br/>
