@@ -106,3 +106,5 @@
 ## Day31: Big Reflection <br/>
 
 ## Day32: Resting <br/>
+
+## Day32: fixing UI and scripts <br/>
