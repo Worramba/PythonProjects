@@ -1,0 +1,22 @@
+while True:
+    print("\n=== MENU ===")
+    print("1. Say Hello")
+    print("2. Add Numbers")
+    print("3. Exit")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        print("Hello!")
+
+    elif choice == "2":
+        num1 = int(input("Enter number 1: "))
+        num2 = int(input("Enter number 2: "))
+        print("Result:", num1 + num2)
+
+    elif choice == "3":
+        print("Goodbye!")
+        break  # stops the loop
+
+    else:
+        print("Invalid choice")
