@@ -108,3 +108,10 @@
 ## Day32: Resting <br/>
 
 ## Day32: fixing UI and scripts <br/>
+
+## Day33 Nothing Today <br/>
+
+## Day34 TextMenu <br/>
+**Date Completed:** April 2, 2026 <br/>
+**Purpose:** You get 3 options 1) talk 2) add number 3)  <br/>
+**Key Concepts Learned:** Learned how to create a text-based choice system for player actions (say hello, add numbers, guess game, random number). <br/>
