@@ -1,0 +1,44 @@
+import random
+
+coins = 0
+
+def show_stats():
+    print("Coins:", coins)
+
+def generate_question():
+    num1 = random.randint(1, 10)
+    num2 = random.randint(1, 10)
+    operator = random.choice(["+", "-", "*"])
+    question = f"{num1} {operator} {num2}"
+    answer = eval(question)
+    return question, answer
+
+def play_round():
+    global coins
+    question, answer = generate_question()
+    print("Solve:", question)
+    player_answer = input("Your answer: ")
+    
+    if player_answer.isdigit() and int(player_answer) == answer:
+        coins += 5
+        print("Correct! +5 coins")
+    else:
+        print("Wrong! The answer was", answer)
+
+while True:
+    print("\n=== Quiz Game Menu ===")
+    print("1. Play round")
+    print("2. Show coins")
+    print("3. Exit")
+    
+    choice = input("Choose an option: ")
+    
+    if choice == "1":
+        play_round()
+    elif choice == "2":
+        show_stats()
+    elif choice == "3":
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice")
