@@ -118,5 +118,11 @@
 
 ## Day35 FunctionPractice <br/>
 **Date Completed:** April 3, 2026 <br/>
-**Purpose:** Its a math quiz with menu and options  <br/>
-**Key Concepts Learned:** Practiced writing functions, using if/else statements, and creating simple menus or choices <br/>
+**Purpose:** 
+-Its a math quiz with menu and options  <br/>
+**Key Concepts Learned:** 
+-Practiced writing functions, using if/else statements
+-creating simple menus or choices <br/>
+**Challenges:**
+-Making the code cleaner than before
+-Turning boolean to int and digits
