@@ -127,3 +127,5 @@
 **Challenges:** <br/>
 -Making the code cleaner than before <br/>
 -Turning boolean to int and digits <br/>
+
+## Day36 Nothing Today <br/>
