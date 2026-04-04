@@ -118,5 +118,5 @@
 
 ## Day35 FunctionPractice <br/>
 **Date Completed:** April 3, 2026 <br/>
-**Purpose:** Its a math quiz  <br/>
-**Key Concepts Learned:** Learned how to create a text-based choice system for player actions (say hello, add numbers, guess game, random number). <br/>
+**Purpose:** Its a math quiz with menu and options  <br/>
+**Key Concepts Learned:** Practiced writing functions, using if/else statements, and creating simple menus or choices <br/>
