@@ -115,3 +115,8 @@
 **Date Completed:** April 2, 2026 <br/>
 **Purpose:** You get 3 options 1) talk 2) add number 3)  <br/>
 **Key Concepts Learned:** Learned how to create a text-based choice system for player actions (say hello, add numbers, guess game, random number). <br/>
+
+## Day35 FunctionPractice <br/>
+**Date Completed:** April 3, 2026 <br/>
+**Purpose:** Its a math quiz  <br/>
+**Key Concepts Learned:** Learned how to create a text-based choice system for player actions (say hello, add numbers, guess game, random number). <br/>
