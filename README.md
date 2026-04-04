@@ -1,6 +1,7 @@
 # PythonProjects
 <h1 align="center">Hi 👋, I'm Aaron</h1>
 <h3 align="center">My goal for making this account is to be in MIT and graduate with ComputerScience and Electrical Engineering PHD</h3>
+<h3 align="center">Roblox dev(sort of beginner) • Luau and Python • Learning Game Systems & UI • Aspiring MIT CS & EE </h3>
 
 - 🔭 I’m currently working on **A tycoon on Roblox**
 
