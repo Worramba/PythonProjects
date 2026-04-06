@@ -130,7 +130,7 @@
 
 ## Day36 Nothing Today <br/>
 
-## Day34 BetterTextMenu <br/>
+## Day37 ReformedTextStuff <br/>
 **Date Completed:** April 5, 2026 <br/>
 **Purpose:** Give the player 4 options: Add, Equip, Buy, and Leave <br/>
 **Key Concepts Learned:** Practiced creating menus with multiple options and handling player choices <br/>
