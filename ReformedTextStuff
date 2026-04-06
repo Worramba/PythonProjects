@@ -1,56 +1,59 @@
+coins = 200
 inventory = []
-
- coins = 200
+equipped = None
 
 shop = {
-   "Sword": 15,
-   "Water": 3,
-   "Shield Of Destiny": 50
- }
+    "Sword": 15,
+    "Water": 3,
+    "Shield Of Destiny": 50
+}
 
-equipped = Nothing
+def show_inventory():
+    if inventory:
+        print("Inventory:", ", ".join(inventory))
+    else:
+        print("Inventory is empty!")
 
-def showInventory():
- print("Inventory:", inventory)
-
+while True:
     print("\n=== MENU ===")
-    print("1. Buy weapons")
+    print("1. Buy items")
     print("2. Add Numbers")
     print("3. Equip something")
     print("4. Exit")
-
+    
     choice = input("Choose: ")
-
+    
     if choice == "1":
-      quetion = input("Hello welcome to my shop, what would you like to buy??")
-      showInventory()
-      if question in shop:
-        price = shop[item]
-          if coins >= price:
-            coins -= price
-            inventory.append(item)
-            print("you bought", item,"and have", coins, "left")
-          else
-            print("can't afford it your wallets on life support btw")
-      else
-          print("That ain't an item, pick another!")
-            
-
+        show_inventory()
+        item = input("Hello! Welcome to my shop, what would you like to buy? ")
+        if item in shop:
+            price = shop[item]
+            if coins >= price:
+                coins -= price
+                inventory.append(item)
+                print(f"You bought {item}! Coins left: {coins}")
+            else:
+                print("Can't afford it! Your wallet is on life support")
+        else:
+            print("That ain't an item, pick another!")
+    
     elif choice == "2":
         num1 = int(input("Enter number 1: "))
         num2 = int(input("Enter number 2: "))
         print("Result:", num1 + num2)
-      
+    
     elif choice == "3":
-     equip = input("Choose what to equiped")
-     showInventory()
-      if equip in Inventory:
-       print("You equipped", equip)
-       equipped = equip
-
+        show_inventory()
+        equip = input("Which item do you want to equip? ")
+        if equip in inventory:
+            equipped = equip
+            print(f"You equipped {equipped}")
+        else:
+            print("You don't have that item!")
+    
     elif choice == "4":
         print("Goodbye!")
-        break  # stops the loop
-
+        break
+    
     else:
         print("Invalid choice")
