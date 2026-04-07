@@ -136,7 +136,7 @@
 **Key Concepts Learned:** Practiced creating menus with multiple options and handling player choices <br/>
 **Challenge:** Learned how to track which option the player selects and respond correctly <br/>
 
-## 📝 Week Progress Log (Text Menus & Functions) <br/>
+## 📝 Week Progress Log (New style) <br/>
 
 **Built:** Text menu system, arithmetic game, number guessing game <br/>
 
