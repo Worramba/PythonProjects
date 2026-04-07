@@ -135,3 +135,15 @@
 **Purpose:** Give the player 4 options: Add, Equip, Buy, and Leave <br/>
 **Key Concepts Learned:** Practiced creating menus with multiple options and handling player choices <br/>
 **Challenge:** Learned how to track which option the player selects and respond correctly <br/>
+
+## 📝 Week Progress Log (Text Menus & Functions) <br/>
+
+**Built:** Text menu system, arithmetic game, number guessing game <br/>
+
+**Practiced:** Handling user input, if/else logic, functions, and dynamic choice systems <br/>
+
+**Improved:** Menu responsiveness and tracking multiple player options <br/>
+
+**Difficult:** Keeping code organized and clean while adding new features <br/>
+
+**Next:** Refine menus further, add more interactive options, and practice connecting multiple functions together <br/>
