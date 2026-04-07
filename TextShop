@@ -1,34 +1,36 @@
 inventory = []
+coins = 10
 
- coins = 10
- 
 shop = {
    "Soda": 3,
    "Water": 1,
    "Fry": 5
- }
- 
-print("Hello welcome to my water shop")
- 
-def buy(item):
-   global coins
-  if item in shop:
-     price = shop[item]
-    if coins >= price:
-       coins -= price
-       inventory.append(item)
-       print("You bought", item)
-       print("You have", coins, "left")
-     else:
-       print("Nope you cant buy it")
-   else:
-     print("This isn't an item")
+}
+
 def showInventory():
+    print("Inventory:", inventory)
 
-   print("Inventory:", inventory)
- 
-showInventory()
+def buy(item):
+    global coins
+    if item in shop:
+        price = shop[item]
+        if coins >= price:
+            coins -= price
+            inventory.append(item)
+            print("You bought", item)
+            print("You have", coins, "left")
+        else:
+            print("Nope you cant buy it")
+    else:
+        print("This isn't an item")
 
- buy("Fry")
+while True:
+    print("Hello welcome to my water shop")
 
- showInventory()
+    ifBuy = input("Would you like to buy yes/no? ")
+
+    if ifBuy == "yes":
+        choice = input("What would you like to buy? ")
+        buy(choice)
+    else:
+        continue
