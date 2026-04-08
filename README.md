@@ -147,3 +147,14 @@
 **Difficult:** Keeping code organized and clean while adding new features <br/>
 
 **Next:** Refine menus further, add more interactive options, and practice connecting multiple functions together <br/>
+
+## Day38 TextShop(Updated) <br/>
+
+**Date Completed:** April 7, 2026 <br/>
+
+**Purpose:** You can buy stuff from a shop and gives it to your inventory with a amount tracked <br/>
+
+**Key Concepts Learned:** Using dictionaries allows tracking item amounts directly and makes your shop system more efficient. <br/>
+
+**Challenge:** Understanding how to add value to strings <br/>
+
