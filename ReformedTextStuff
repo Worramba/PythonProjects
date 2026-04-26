@@ -1,5 +1,5 @@
 coins = 200
-inventory = []
+inventory = {}
 equipped = None
 
 shop = {
@@ -10,7 +10,9 @@ shop = {
 
 def show_inventory():
     if inventory:
-        print("Inventory:", ", ".join(inventory))
+        print("Inventory:")
+        for name, data in inventory.items():
+            print(f"- {name} ({data['rarity']}) x{data['amount']}")
     else:
         print("Inventory is empty!")
 
@@ -26,19 +28,23 @@ while True:
     if choice == "1":
         show_inventory()
         item = input("Hello! Welcome to my shop, what would you like to buy? ")
+        
         if item in shop:
             itemData = shop[item]
             price = itemData["price"]
 
-            if item in inventory:
-                inventory[item]["amount"] += 1
-            else:
-                inventory[item] = {
-            "amount": 1,
-            "rarity": itemData["rarity"]
-             }
-                inventory.append(item)
-                print(f"- {name} ({data['rarity']}) x{data['amount']}")
+            if coins >= price:
+                coins -= price
+
+                if item in inventory:
+                    inventory[item]["amount"] += 1
+                else:
+                    inventory[item] = {
+                        "amount": 1,
+                        "rarity": itemData["rarity"]
+                    }
+
+                print(f"You bought {item}! Coins left: {coins}")
             else:
                 print("Can't afford it! Your wallet is on life support")
         else:
@@ -52,9 +58,13 @@ while True:
     elif choice == "3":
         show_inventory()
         equip = input("Which item do you want to equip? ")
+
         if equip in inventory:
-            equipped = equip
-            print(f"You equipped {equipped}")
+            if equipped == equip:
+                print("Already equipped!")
+            else:
+                equipped = equip
+                print(f"You equipped {equipped}")
         else:
             print("You don't have that item!")
     
